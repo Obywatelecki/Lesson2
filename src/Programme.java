@@ -1,3 +1,4 @@
+import com.mypackage.Coord;
 import com.mypackage.MyClass;
 
 public class Programme {
@@ -22,6 +23,9 @@ public class Programme {
 
         MyClass obj = new MyClass(1, 2);
         System.out.println(obj.sum());
+
+        Coord c1 = new Coord(1, 2);
+        System.out.println(c1.sum());
 
     }
 }
