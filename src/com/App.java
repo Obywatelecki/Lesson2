@@ -4,7 +4,6 @@ import com.Coord.Coord3;
 
 public class App {
 
-
     public static void main(String[] args) {
 
         Coord c1 = new Coord(1, 2);
