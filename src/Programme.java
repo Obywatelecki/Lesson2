@@ -21,7 +21,7 @@ public class Programme {
         System.out.println(y);
 
         MyClass obj = new MyClass(1, 2);
-        obj.name = "Tomek";
+        obj.name = "Ada";
         System.out.println(obj.sum());
 
     }
