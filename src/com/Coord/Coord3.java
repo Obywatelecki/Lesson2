@@ -9,7 +9,7 @@ public class Coord3 extends Coord {
         this.z = z;
     }
 
-    public double sum() {
+    public double sum() { //sygnatura klasy: nazwa i typy argumentow
         return super.sum() + z;
     }
 }

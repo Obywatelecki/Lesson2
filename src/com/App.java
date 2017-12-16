@@ -12,6 +12,8 @@ public class App {
     public static void main(String[] args) {
 
         Coord c1 = new Coord(1, 2);
+        Coord c3 = new Coord();
+        Coord c4 = new Coord(c1);
         Coord3 c2 = new Coord3(23, 42, 44);
 
         System.out.println("Diameter: " + c1.diameter() + "\n");
@@ -31,6 +33,9 @@ public class App {
         System.out.println(x[0]);
 
         System.out.println(c1.multisum(5));
+        Coord3.mean(1, 10);
+
+
     }
 }
 
