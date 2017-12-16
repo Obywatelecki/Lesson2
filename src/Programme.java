@@ -22,7 +22,7 @@ public class Programme {
 
         MyClass obj = new MyClass(1, 2);
         obj.name = "Ada";
-        obj.czyTuli = true;        
+        obj.czyTuli = true;
         System.out.println(obj.sum());
 
     }
