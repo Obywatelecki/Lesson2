@@ -21,8 +21,6 @@ public class Programme {
         System.out.println(y);
 
         MyClass obj = new MyClass(1, 2);
-        obj.name = "Ada";
-        obj.czyTuli = true;
         System.out.println(obj.sum());
 
     }
