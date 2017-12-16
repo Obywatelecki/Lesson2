@@ -1,4 +1,6 @@
-import com.mypackage.Coord;
+package com.training;
+
+import com.Coord.Coord;
 import com.mypackage.MyClass;
 
 public class Programme {
@@ -11,6 +13,10 @@ public class Programme {
         x++;
     }
 
+    public static void print(String s) {
+        System.out.println(s);
+    }
+
     public static void main(String[] args) {
 
         Integer x = 7;
@@ -18,8 +24,13 @@ public class Programme {
         inc(x);
         inc1(y);
 
-        System.out.println(x);
-        System.out.println(y);
+        String s = "Tomek";
+        print(s);
+
+        Coord c2 = new Coord(1, 3);
+
+        System.out.println("x ma wartosc: " + x);
+        System.out.println("y ma wartosc: " + y);
 
         MyClass obj = new MyClass(1, 2);
         System.out.println(obj.sum());

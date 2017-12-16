@@ -1,4 +1,4 @@
-package com.mypackage;
+package com.Coord;
 
 public class Coord {
 

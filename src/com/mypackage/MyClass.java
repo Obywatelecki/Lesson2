@@ -2,8 +2,8 @@ package com.mypackage;
 
 public class MyClass {
 
-    private Integer x;
-    private Integer y;
+    public Integer x;
+    public Integer y;
 
     public MyClass(Integer x, Integer y) {
         this.x = x;
@@ -13,4 +13,5 @@ public class MyClass {
     public Integer sum() {
         return x + y;
     }
-}
+
+};
