@@ -2,15 +2,19 @@ package com.Coord;
 
 public class Coord {
 
-    private int x;
-    private int y;
+    protected double x;
+    protected double y;
 
-    public Coord(int x, int y) {
+    public Coord(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public int sum() {
+    public double diameter() {
+        return Math.sqrt(x + y);
+    }
+
+    public double sum() {
         return x + y;
     }
 }
